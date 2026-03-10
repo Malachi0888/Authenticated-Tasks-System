@@ -1,0 +1,19 @@
+{
+  "name": "authenticated-tasks-system",
+  "version": "1.0.0",
+  "description": "Task management API with user authentication",
+  "main": "server.js",
+  "scripts": {
+    "setup": "node database/setup.js",
+    "seed": "node database/seed.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
